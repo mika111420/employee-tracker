@@ -24,7 +24,8 @@ This weeks challenge was to build a command line application to manage a company
 
 ##Video
 
-https://github.com/mika111420/employee-tracker/assets/128564443/c18a522d-abc0-4f50-af30-32f0758a2e90
+https://github.com/mika111420/employee-tracker/assets/128564443/a0aa7bee-d425-47d9-b570-c496a38170c2
+
 
 ##Links
 GitHub: https://github.com/mika111420/employee-tracker
