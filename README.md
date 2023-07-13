@@ -23,8 +23,8 @@ This weeks challenge was to build a command line application to manage a company
 *Select a given task and follow the Inquirer prompts.
 
 ##Video
-[Untitled_ Jul 13, 2023 10_19 AM.webm](https://github.com/mika111420/employee-tracker/assets/128564443/42311823-cbf3-4eee-bacf-3a0e139fa4e6)
 
+https://github.com/mika111420/employee-tracker/assets/128564443/c18a522d-abc0-4f50-af30-32f0758a2e90
 
 ##Links
 GitHub: https://github.com/mika111420/employee-tracker
