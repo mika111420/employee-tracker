@@ -47,6 +47,18 @@ async function init() {
       console.error(error);
     }
   }
+
+  async function viewEmployees() {
+    try {
+      const query = 'SELECT * FROM employee';
+      const [rows] = await connection.promise().query(query);
+      console.table(rows);
+      await init();
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   async function viewRoles() {
    try {
      const query = 'SELECT * FROM role';
@@ -156,7 +168,7 @@ async function init() {
      ]);
      const roleId = roleRes.role.split('id: ')[1].replace(')', '');
 
-     await connection.promise().query('INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES (?, ?, ?, ?)', [firstName, lastName, roleId, managerId]);
+     await connection.promise().query('INSERT INTO employee(first_name, last_name, role_id) VALUES (?, ?, ?)', [firstName, lastName, roleId]);
 
     console.log(`Added ${firstName} ${lastName} to the database`);
     await init();
